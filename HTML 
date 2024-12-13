@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sana Ejaz - Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header Section -->
+  <header class="header">
+    <nav class="navbar">
+      <div class="logo">Sana Ejaz</div>
+      <ul class="nav-links">
+        <li><a href="#welcome">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="welcome" class="hero">
+    <div class="hero-content">
+      <h1>Hi, I'm <span class="highlight">Sana Ejaz</span></h1>
+      <p>Front-End Developer & UI/UX Designer</p>
+      <a href="#contact" class="btn">Let's Connect</a>
+    </div>
+  </section>
+
+  <!-- About Me Section -->
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <p>I am a passionate IT professional with expertise in front-end development and UI/UX design. My goal is to craft digital experiences that are not only functional but also visually appealing. With experience in modern web technologies, I bring ideas to life in the digital world.</p>
+  </section>
+
+  <!-- Experience Section -->
+  <section id="experience" class="experience">
+    <h2>Experience</h2>
+    <div class="experience-card">
+      <h3>Front-End Developer</h3>
+      <p>2 years of professional experience building responsive and user-friendly websites.</p>
+    </div>
+    <div class="experience-card">
+      <h3>UI/UX Designer</h3>
+      <p>1.5 years of freelance experience designing clean, intuitive interfaces.</p>
+    </div>
+    <div class="experience-card">
+      <h3>Certifications</h3>
+      <ul>
+        <li>Effective Leadership</li>
+        <li>Front-End Developer</li>
+        <li>Project Management</li>
+        <li>Agile Methodology</li>
+        <li>IT For Business Success</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="skills">
+    <h2>My Skills</h2>
+    <div class="skill-grid">
+      <div class="skill-item">
+        <span>HTML</span>
+        <div class="skill-bar" style="width: 90%;"></div>
+      </div>
+      <div class="skill-item">
+        <span>CSS</span>
+        <div class="skill-bar" style="width: 85%;"></div>
+      </div>
+      <div class="skill-item">
+        <span>JavaScript</span>
+        <div class="skill-bar" style="width: 80%;"></div>
+      </div>
+      <div class="skill-item">
+        <span>React</span>
+        <div class="skill-bar" style="width: 75%;"></div>
+      </div>
+      <div class="skill-item">
+        <span>DESIGNING</span>
+        <div class="skill-bar" style="width: 75%;"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <form id="contact-form" class="contact-form">
+      <input type="text" id="name" placeholder="Your Name" required>
+      <input type="email" id="email" placeholder="Your Email" required>
+      <textarea id="message" placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn">Send</button>
+    </form>
+    <div class="contact-info">
+      <p>Phone: <strong>03183548456</strong></p>
+      <p>Email: <strong>sanaejaz2708@gmail.com</strong></p>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>&copy; 2024 Sana Ejaz. Designed with care.</p>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
